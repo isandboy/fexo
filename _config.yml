@@ -1,7 +1,7 @@
 # Blog info
-blog_name: Forsigner
-slogan: Find the bug of the world
-url: http://www.forsigner.com
+blog_name: isandboy
+slogan: 来来往往，走走停停
+url: https://isandboy.github.io/
 
 # Set avatar (Absolute url and relative url)
 avatar: /images/avatar.jpg
@@ -10,7 +10,7 @@ avatar: /images/avatar.jpg
 favicon: /favicon.ico
 
 # For seo
-keywords: forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+keywords: Objective-C, Swift, cocoapods, 杂记
 
 home_nav:
   - name: Blog
@@ -20,11 +20,14 @@ home_nav:
     url: /project/
     target_blank: true #在新页面打开
   - name: Github
-    url: https://github.com/forsigner
+    url: http://github.com/isandboy
     target_blank: true
   - name: Twitter
     url: https://twitter.com/forsigner
     target_blank: true
+  - name: Search
+    url: /search/
+    target_blank: false # 在新页面打开
 
 # config page nav
 page_nav:
@@ -43,12 +46,12 @@ page_nav:
   - name: 关于
     url: /about/
     target_blank: false
-  - name: RSS
-    url: /atom.xml
-    target_blank: true # 在新页面打开
-  - name: 搜索
-    url: /search/
-    target_blank: false # 在新页面打开
+  # - name: RSS
+  #   url: /atom.xml
+  #   target_blank: true # 在新页面打开
+  # - name: 搜索
+  #   url: /search/
+  #   target_blank: false # 在新页面打开
 
 page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
 
@@ -67,7 +70,7 @@ search_slogan:
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以邮件 forsigner@gmail.com
+  text: email sandboylu@gmail.com
 
 
 # set backtop show or hide
@@ -83,7 +86,7 @@ backtop:
 donation:
   show: true
   btn_text: 支持一下
-  tip: 扫一扫，支持forsigner
+  tip: 扫一扫
   items:
     - type: 微信
       text: 微信扫一扫
@@ -96,7 +99,7 @@ donation:
 
 
 post:
-  header_align: CENTER # LEFT|CENTER
+  header_align: LEFT # LEFT|CENTER
   showToc: true # true|false
   showComments: true
   open_in_new_window: false
