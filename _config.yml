@@ -84,7 +84,7 @@ backtop:
   about: false
 
 donation:
-  show: true
+  show: false
   btn_text: 支持一下
   tip: 扫一扫
   items:
@@ -127,11 +127,11 @@ init_page_content: HOME_NAV  # HOME_NAV | POST
 # 第三方服务
 # =========================================================
 # Stats
-google_analytics:
-baidu_analytics: 57e94d016e201fba3603a8a2b0263af0
+# google_analytics:
+# baidu_analytics: 57e94d016e201fba3603a8a2b0263af0
 
 # Comment service
-disqus_shortname: forsigner
+# disqus_shortname: forsigner
 # duoshuo_shortname: forsigner
 
 # 不算子,文章访问量统计和显示
